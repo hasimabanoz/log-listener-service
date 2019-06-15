@@ -1,0 +1,4 @@
+- pipeline.id: kafka-producer
+  path.config: "/etc/logstash/conf.d/logstash-kafka-producer.conf"
+- pipeline.id: kafka-consumer
+  path.config: "/etc/logstash/conf.d/logstash-kafka-consumer.conf"
